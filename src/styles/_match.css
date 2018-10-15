@@ -1,0 +1,22 @@
+.match {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.match .matchdetails {
+  padding-bottom: 20px;
+}
+
+.matchbuttons {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.matchbuttons .btn-primary {
+  background-color: black;
+  border-color: white;
+}
+
+span {
+  margin: 0 5px;
+}

@@ -1,0 +1,101 @@
+.app {
+  font-family: Avenir, Arial, sans-serif;
+}
+
+/* header */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('assets/images/header_og.jpg');
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: bottom;
+  height: 340px;
+}
+
+/* nav */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-nav > li {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.navbar-nav > li > a {
+  color: white;
+}
+
+/* free trial button */
+.freetrial_btn {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 100px;
+}
+
+/* logo */
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* footer */
+.footer {
+  padding-top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footer_address {
+  height: 156px;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer_address_container {
+  padding-top: 70px;
+}
+
+.footer_address_tab {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer_socialmedia {
+  height: 108px;
+  line-height: 100px;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer_socialmedia a {
+  color: #ffffff;
+}
+
+.footer_socialmedia a:hover {
+  color: #ffffffa1;
+}
+
+.footer_socialmedia_tab {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.fa-stack {
+  font-size: 1.15em;
+}
+.fab.fa-facebook-f,
+.fab.fa-yelp,
+.fab.fa-instagram,
+.fab.fa-linkedin-in {
+  color: #333333;
+}

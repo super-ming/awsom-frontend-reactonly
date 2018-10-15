@@ -1,0 +1,63 @@
+.freetrial_description {
+  padding-top: 100px;
+}
+
+.freetrial_description h1 {
+  text-align: center;
+}
+
+.app__form_container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.app__form {
+  padding-top: 25px;
+}
+
+.app__form_item {
+  padding-top: 25px;
+}
+
+.app__form_item li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.app__form_addresssub {
+  padding-top: 5px;
+  padding-left: 2px;
+  font-size: 10px;
+}
+
+.app__form_dropdownbox {
+  width: 200px;
+}
+
+.app__form_input {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.btn-secondary {
+  width: 150px;
+}
+
+.btn-outline-secondary {
+  width: 150px;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: white;
+  width: 150px;
+}
+
+.field-error {
+  color: red;
+  border-color: red;
+}
+
+span {
+  margin: 0 5px;
+}
