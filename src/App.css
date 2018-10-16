@@ -11,6 +11,7 @@
   background-size: 100%;
   background-position-y: bottom;
   height: 340px;
+  width: 100%;
 }
 
 /* nav */
@@ -98,4 +99,12 @@
 .fab.fa-instagram,
 .fab.fa-linkedin-in {
   color: #333333;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    width: 100%;
+    height: auto;
+    background-size: 100% auto !important;
+  }
 }
