@@ -108,10 +108,13 @@ export default class FreeTrial extends React.Component {
             //   }, 500);
             // }}
             onSubmit={values => {
-              // setTimeout(() => {
-              //   alert(JSON.stringify(values, null, 2));
-              // }, 500);
-              console.log(JSON.stringify(values));
+              // let tempArray = values.availability;
+              // for (let i = 0; i < tempArray.length; i++) {
+              //   tempArray[i].fromTime = parseInt(tempArray[i].fromTime, 10);
+              //   tempArray[i].toTime = parseInt(tempArray[i].toTime, 10);
+              // }
+              // values.availability = tempArray;
+              //console.log('values.availability array: ', values.availability);
               this.setState({ isLoading: true });
               fetch(
                 `${
