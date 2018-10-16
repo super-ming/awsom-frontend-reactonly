@@ -114,6 +114,9 @@ class AppNavbar extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
+                <NavLink href="https://www.awsom.info/recitals-1/">RECITALS</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="https://www.awsom.info/careers/">
                   CAREERS
                 </NavLink>
