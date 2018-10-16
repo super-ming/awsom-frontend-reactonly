@@ -62,7 +62,7 @@ export default class Home extends Component {
             </div>
             <div className="wrapper container-fluid">
               <div className="row">
-                <div className="col-sm-4 offset-sm-2 card-container">
+                <div className="col-sm-5 offset-sm-1">
                   <div className="cards">
                     <a href="https://www.awsom.info/piano/">
                       <img src={piano} alt="piano" />
@@ -77,7 +77,7 @@ export default class Home extends Component {
                     </a>
                   </div>
                 </div>
-                <div className="col-sm-4 card_container">
+                <div className="col-sm-5 card_container">
                   <div className="cards">
                     <a href="https://www.awsom.info/guitar/">
                       <img src={guitar} alt="guitar" />
@@ -94,7 +94,7 @@ export default class Home extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-4 offset-sm-2">
+                <div className="col-sm-5 offset-sm-1">
                   <div className="cards">
                     <a href="https://www.awsom.info/drums/">
                       <img src={drums} alt="drums" />
@@ -109,7 +109,7 @@ export default class Home extends Component {
                     </a>
                   </div>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-5">
                   <div className="cards">
                     <a href="https://www.awsom.info/woodwind/">
                       <img src={woodwind} alt="woodwind" />
@@ -126,7 +126,7 @@ export default class Home extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-4 offset-sm-2">
+                <div className="col-sm-5 offset-sm-1">
                   <div className="cards">
                     <a href="https://www.awsom.info/voice/">
                       <img src={voice} alt="voice" />
@@ -141,7 +141,7 @@ export default class Home extends Component {
                     </a>
                   </div>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-5">
                   <div className="cards">
                     <a href="https://www.awsom.info/brass/">
                       <img src={brass} alt="brass" />
@@ -158,7 +158,7 @@ export default class Home extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-4 offset-sm-2">
+                <div className="col-sm-5 offset-sm-1">
                   <div className="cards">
                     <a href="https://www.awsom.info/strings/">
                       <img src={strings} alt="strings" />
@@ -173,7 +173,7 @@ export default class Home extends Component {
                     </a>
                   </div>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-5">
                   <div className="cards">
                     <a href="https://www.awsom.info/chamber/">
                       <img src={chamber} alt="chamber" />
