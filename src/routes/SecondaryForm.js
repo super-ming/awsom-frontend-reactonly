@@ -64,7 +64,8 @@ const secondaryFormSchema = Yup.object({
       new Date(),
       `That's in the future! Check the flux capacitor in your Delorean. `
     )
-    .required('Required')
+    .required('Required'),
+  hearAbout: Yup.string().required('Required')
 });
 
 export default class SecondaryForm extends Component {
@@ -281,7 +282,7 @@ export default class SecondaryForm extends Component {
                           ? 'app__form_input field-error'
                           : 'app__form_input'
                       }
-                      type="datetime-local"
+                      type="date"
                     />
                     <ErrorMessage name="birthDate">
                       {msg => <div className="field-error">{msg}</div>}
