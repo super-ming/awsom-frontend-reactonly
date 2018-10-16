@@ -137,6 +137,7 @@ export default class SecondaryForm extends Component {
             //   }, 500);
             // }}
             onSubmit={values => {
+              //alert(JSON.stringify(values, null, 2));
               this.setState({
                 isLoading: true
               });
@@ -145,7 +146,9 @@ export default class SecondaryForm extends Component {
                 `${
                   process.env.REACT_APP_API_URL_REMOTE
                 }/api/confirm-appointment`,
-                //`${process.env.REACT_APP_API_URL_LOCAL}/api/confirm-appointment`,
+                //`${
+                // process.env.REACT_APP_API_URL_LOCAL
+                //}/api/confirm-appointment`,
                 {
                   method: 'POST',
                   headers: {

@@ -24,8 +24,8 @@ const initialFormValues = {
   availability: [
     {
       day: '',
-      fromTime: '',
-      toTime: ''
+      fromTime: 0,
+      toTime: 0
     }
   ],
   allergies: '',
@@ -48,8 +48,8 @@ const initialFormSchema = Yup.object({
   availability: Yup.array().of(
     Yup.object({
       day: Yup.string().required('Day required'),
-      fromTime: Yup.string().required('Start time required'),
-      toTime: Yup.string().required('End time required')
+      fromTime: Yup.number().required('Start time required'),
+      toTime: Yup.number().required('End time required')
     })
   )
 });
@@ -108,6 +108,10 @@ export default class FreeTrial extends React.Component {
             //   }, 500);
             // }}
             onSubmit={values => {
+              // setTimeout(() => {
+              //   alert(JSON.stringify(values, null, 2));
+              // }, 500);
+              console.log(JSON.stringify(values));
               this.setState({ isLoading: true });
               fetch(
                 `${
