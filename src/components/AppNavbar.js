@@ -18,15 +18,19 @@ import {
 } from 'reactstrap';
 
 class AppNavbar extends Component {
-  state = {
-    isOpen: false
-  };
+  constructor(props) {
+    super(props);
 
-  toggle = () => {
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  };
+  }
 
   render() {
     return (
