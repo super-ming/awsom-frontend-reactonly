@@ -36,7 +36,6 @@ export default class Home extends Component {
   }
 
   render() {
-
     return (
       <Fragment>
         <main className="container">
@@ -66,30 +65,30 @@ export default class Home extends Component {
                 <div className="col-sm-4 offset-sm-2 card-container">
                   <div className="cards">
                     <a href="https://www.awsom.info/piano/">
-                    <img src={piano} alt="piano"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/piano/"
-                      >
-                        Piano
-                      </a>
-                    </div>
+                      <img src={piano} alt="piano" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/piano/"
+                        >
+                          Piano
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
                 <div className="col-sm-4 card_container">
                   <div className="cards">
                     <a href="https://www.awsom.info/guitar/">
-                    <img src={guitar} alt="guitar"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/guitar/"
-                      >
-                        Guitar
-                      </a>
-                    </div>
+                      <img src={guitar} alt="guitar" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/guitar/"
+                        >
+                          Guitar
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
@@ -98,30 +97,30 @@ export default class Home extends Component {
                 <div className="col-sm-4 offset-sm-2">
                   <div className="cards">
                     <a href="https://www.awsom.info/drums/">
-                    <img src={ drums } alt="drums"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/drums/"
-                      >
-                        Drums
-                      </a>
-                    </div>
+                      <img src={drums} alt="drums" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/drums/"
+                        >
+                          Drums
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="cards">
                     <a href="https://www.awsom.info/woodwind/">
-                    <img src={ woodwind } alt="woodwind"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/woodwind/"
-                      >
-                        Woodwind
-                      </a>
-                    </div>
+                      <img src={woodwind} alt="woodwind" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/woodwind/"
+                        >
+                          Woodwind
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
@@ -130,30 +129,30 @@ export default class Home extends Component {
                 <div className="col-sm-4 offset-sm-2">
                   <div className="cards">
                     <a href="https://www.awsom.info/voice/">
-                    <img src={ voice } alt="voice"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/voice/"
-                      >
-                        Voice
-                      </a>
-                    </div>
+                      <img src={voice} alt="voice" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/voice/"
+                        >
+                          Voice
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="cards">
                     <a href="https://www.awsom.info/brass/">
-                    <img src={ brass } alt="brass"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/brass/"
-                      >
-                        Brass
-                      </a>
-                    </div>
+                      <img src={brass} alt="brass" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/brass/"
+                        >
+                          Brass
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
@@ -162,30 +161,30 @@ export default class Home extends Component {
                 <div className="col-sm-4 offset-sm-2">
                   <div className="cards">
                     <a href="https://www.awsom.info/strings/">
-                    <img src={ strings } alt="strings"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/strings/"
-                      >
-                        Strings
-                      </a>
-                    </div>
+                      <img src={strings} alt="strings" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/strings/"
+                        >
+                          Strings
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="cards">
                     <a href="https://www.awsom.info/chamber/">
-                    <img src={ chamber } alt="chamber"/>
-                    <div className="image-caption-wrapper">
-                      <a
-                        className="image-caption"
-                        href="https://www.awsom.info/chamber/"
-                      >
-                        Chamber
-                      </a>
-                    </div>
+                      <img src={chamber} alt="chamber" />
+                      <div className="image-caption-wrapper">
+                        <a
+                          className="image-caption"
+                          href="https://www.awsom.info/chamber/"
+                        >
+                          Chamber
+                        </a>
+                      </div>
                     </a>
                   </div>
                 </div>
