@@ -66,6 +66,7 @@ export default class Home extends Component {
                   <div className="cards">
                     <a href="https://www.awsom.info/piano/">
                       <img src={piano} alt="piano" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -74,13 +75,13 @@ export default class Home extends Component {
                           Piano
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
                 <div className="col-sm-5 card_container">
                   <div className="cards">
                     <a href="https://www.awsom.info/guitar/">
                       <img src={guitar} alt="guitar" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -89,7 +90,6 @@ export default class Home extends Component {
                           Guitar
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -98,6 +98,7 @@ export default class Home extends Component {
                   <div className="cards">
                     <a href="https://www.awsom.info/drums/">
                       <img src={drums} alt="drums" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -106,13 +107,13 @@ export default class Home extends Component {
                           Drums
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
                 <div className="col-sm-5">
                   <div className="cards">
                     <a href="https://www.awsom.info/woodwind/">
                       <img src={woodwind} alt="woodwind" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -121,7 +122,6 @@ export default class Home extends Component {
                           Woodwind
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -130,6 +130,7 @@ export default class Home extends Component {
                   <div className="cards">
                     <a href="https://www.awsom.info/voice/">
                       <img src={voice} alt="voice" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -138,13 +139,13 @@ export default class Home extends Component {
                           Voice
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
                 <div className="col-sm-5">
                   <div className="cards">
                     <a href="https://www.awsom.info/brass/">
                       <img src={brass} alt="brass" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -153,7 +154,6 @@ export default class Home extends Component {
                           Brass
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -162,6 +162,7 @@ export default class Home extends Component {
                   <div className="cards">
                     <a href="https://www.awsom.info/strings/">
                       <img src={strings} alt="strings" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -170,13 +171,13 @@ export default class Home extends Component {
                           Strings
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
                 <div className="col-sm-5">
                   <div className="cards">
                     <a href="https://www.awsom.info/chamber/">
                       <img src={chamber} alt="chamber" />
+                    </a>
                       <div className="image-caption-wrapper">
                         <a
                           className="image-caption"
@@ -185,7 +186,6 @@ export default class Home extends Component {
                           Chamber
                         </a>
                       </div>
-                    </a>
                   </div>
                 </div>
               </div>
