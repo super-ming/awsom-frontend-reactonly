@@ -21,3 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 
 **/[Tt]emp*
+
+# dotenv environment variables file
+.env
