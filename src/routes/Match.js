@@ -103,7 +103,7 @@ export default class Match extends Component {
 
   render() {
     if (!this.props.location.teacherMatches) {
-      return <Redirect to="/free-trial" />;
+      return <Redirect to="/" />;
     }
     if (this.state.isLoading) {
       return <Loading />;

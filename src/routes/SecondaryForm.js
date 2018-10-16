@@ -102,7 +102,7 @@ export default class SecondaryForm extends Component {
       return <Loading />;
     }
     if (!this.props.location.studentID) {
-      return <Redirect to="/free-trial" />;
+      return <Redirect to="/" />;
     }
     return (
       <Fragment>

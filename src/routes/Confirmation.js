@@ -124,7 +124,7 @@ export default class Confirmation extends Component {
 
   render() {
     if (!this.props.location.confirmedAppt) {
-      return <Redirect to="/free-trial" />;
+      return <Redirect to="/" />;
     }
     // if (this.state.formSubmitted) {
     //   return (
