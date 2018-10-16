@@ -19,17 +19,20 @@
   margin-bottom: 5%;
   color: #93979e;
   font-weight: 300;
-  font-style: italic;
+  font-family: "Lato", sans-serif;
 }
 
 .intro > h1 {
   color: #3e3e3e;
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .intro > p {
   padding-top: 1%;
+  color: #413d3d;
 }
 
 .cards {
@@ -46,14 +49,14 @@
 
 img {
   height: 250px;
-  width: 90%;
+  width: 100%;
 }
 
 .image-caption-wrapper {
   position: absolute;
   top: 210px;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 90%;
+  width: 100%;
   height: 2.5em;
   opacity: 50%;
   padding: 8px;
@@ -69,7 +72,7 @@ img {
 
 .wrapper {
   margin: 0 0 2em 0;
-  padding-left: 3.5%;
+  padding-left: 2.25%;
 }
 
 #choose-adv > h1 {
@@ -105,7 +108,7 @@ img {
   }
 
   .wrapper {
-    padding-left: 11%;
+    padding-left: 4.5%;
   }
 
   .app__footaddress {
@@ -215,6 +218,9 @@ img {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1016px) {
+  .app {
+    width: 100%;
+  }
   .app__header {
     height: 200px;
   }
