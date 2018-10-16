@@ -35,7 +35,7 @@ class AppNavbar extends Component {
   render() {
     return (
       <div>
-        <Navbar expand="md" className="mb-5">
+        <Navbar expand="md" className="mb-5" dark>
           <NavbarBrand href="/">
             <Logo />
           </NavbarBrand>
@@ -118,7 +118,9 @@ class AppNavbar extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="https://www.awsom.info/recitals-1/">RECITALS</NavLink>
+                <NavLink href="https://www.awsom.info/recitals-1/">
+                  RECITALS
+                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://www.awsom.info/careers/">

@@ -108,7 +108,7 @@ export default class SecondaryForm extends Component {
       <Fragment>
         <div className="container">
           <div className="freetrial_description">
-            <h1>We just need a few more details</h1>
+            <h1>We just need a few more details...</h1>
           </div>
           <Formik
             initialValues={{
