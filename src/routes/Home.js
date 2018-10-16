@@ -1,5 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import '../styles/_home.css';
+import piano from '../assets/images/piano.jpg';
+import guitar from '../assets/images/guitar.jpg';
+import drums from '../assets/images/drums.jpg';
+import brass from '../assets/images/brass.jpg';
+import strings from '../assets/images/strings.jpg';
+import woodwind from '../assets/images/woodwind.jpg';
+import voice from '../assets/images/voice.jpg';
+import chamber from '../assets/images/chamber.jpg';
 
 export default class Home extends Component {
   constructor(props) {
@@ -23,13 +31,12 @@ export default class Home extends Component {
     if (!this.state.ticker) {
       if (window.scrollY > 50) {
         this.setState({ ticker: true, opacity: true });
-        // console.log(this.state.ticker);
       }
     }
   }
 
   render() {
-    // console.log(this.state.display);
+
     return (
       <Fragment>
         <main className="container">
@@ -56,12 +63,10 @@ export default class Home extends Component {
             </div>
             <div className="wrapper container-fluid">
               <div className="row">
-                <div className="col-sm-5 offset-sm-1">
+                <div className="col-sm-4 offset-sm-2 card-container">
                   <div className="cards">
-                    <img
-                      alt="piano"
-                      src="https://images.pexels.com/photos/1246437/pexels-photo-1246437.jpeg?cs=srgb&dl=4k-wallpaper-close-up-fingers-1246437.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/piano/">
+                    <img src={piano} alt="piano"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -70,14 +75,13 @@ export default class Home extends Component {
                         Piano
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
-                <div className="col-sm-5">
+                <div className="col-sm-4 card_container">
                   <div className="cards">
-                    <img
-                      alt="guitar"
-                      src="https://images.pexels.com/photos/15919/pexels-photo.jpg?cs=srgb&dl=e-guitar-electric-guitar-15919.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/guitar/">
+                    <img src={guitar} alt="guitar"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -86,16 +90,15 @@ export default class Home extends Component {
                         Guitar
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-5 offset-sm-1">
+                <div className="col-sm-4 offset-sm-2">
                   <div className="cards">
-                    <img
-                      alt="drums"
-                      src="https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?cs=srgb&dl=adult-band-concert-995301.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/drums/">
+                    <img src={ drums } alt="drums"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -104,14 +107,13 @@ export default class Home extends Component {
                         Drums
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
-                <div className="col-sm-5">
+                <div className="col-sm-4">
                   <div className="cards">
-                    <img
-                      alt="woodwind"
-                      src="https://images.pexels.com/photos/417456/pexels-photo-417456.jpeg?cs=srgb&dl=adult-band-bokeh-417456.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/woodwind/">
+                    <img src={ woodwind } alt="woodwind"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -120,16 +122,15 @@ export default class Home extends Component {
                         Woodwind
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-5 offset-sm-1">
+                <div className="col-sm-4 offset-sm-2">
                   <div className="cards">
-                    <img
-                      alt="voice"
-                      src="https://images.pexels.com/photos/462442/pexels-photo-462442.jpeg?cs=srgb&dl=adult-band-cap-462442.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/voice/">
+                    <img src={ voice } alt="voice"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -138,14 +139,13 @@ export default class Home extends Component {
                         Voice
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
-                <div className="col-sm-5">
+                <div className="col-sm-4">
                   <div className="cards">
-                    <img
-                      alt="brass"
-                      src="https://images.pexels.com/photos/1049690/pexels-photo-1049690.jpeg?cs=srgb&dl=brass-hand-instrument-1049690.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/brass/">
+                    <img src={ brass } alt="brass"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -154,16 +154,15 @@ export default class Home extends Component {
                         Brass
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-5 offset-sm-1">
+                <div className="col-sm-4 offset-sm-2">
                   <div className="cards">
-                    <img
-                      alt="strings "
-                      src="https://images.pexels.com/photos/111287/pexels-photo-111287.jpeg?cs=srgb&dl=concert-music-musical-instrument-111287.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/strings/">
+                    <img src={ strings } alt="strings"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -172,14 +171,13 @@ export default class Home extends Component {
                         Strings
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
-                <div className="col-sm-5">
+                <div className="col-sm-4">
                   <div className="cards">
-                    <img
-                      alt="chamber"
-                      src="https://images.pexels.com/photos/306081/pexels-photo-306081.jpeg?cs=srgb&dl=acoustic-band-bass-306081.jpg&fm=jpg"
-                    />
+                    <a href="https://www.awsom.info/chamber/">
+                    <img src={ chamber } alt="chamber"/>
                     <div className="image-caption-wrapper">
                       <a
                         className="image-caption"
@@ -188,6 +186,7 @@ export default class Home extends Component {
                         Chamber
                       </a>
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
