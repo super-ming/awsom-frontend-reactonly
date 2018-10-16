@@ -308,7 +308,7 @@ export default class SecondaryForm extends Component {
                   </div> */}
 
                   <div className="app__form_item">
-                    <div>How did you hear about us?</div>
+                    <div>How did you hear about us? *</div>
                     <div className="app__form_addresssub">
                       Teacher's name, friend's name, Facebook, a little bird,
                       Craigslist, Yelp, Car ads
